@@ -22,12 +22,7 @@ def DDA(x1,y1,x2,y2):
         x_point.append(x1)
         y_point.append(y1)
     
-
-
     return x_point,y_point
-
-
-
 
 
 
@@ -46,10 +41,6 @@ def main():
     plt.ylabel('Y-axis')
     plt.title('DDA Line Drawing Algorithm')
     plt.show()
-
-
-    
-   
 
 
 __name__ == '__main__'
